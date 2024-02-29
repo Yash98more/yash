@@ -1,0 +1,8 @@
+---
+- name: first 
+  hosts: all
+  tasks: 
+    - name: first file
+      debug:
+        msg: "(hi hello yash)"
+...
