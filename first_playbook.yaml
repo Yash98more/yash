@@ -1,10 +1,10 @@
 ---
 - name: yash
   age: 25
-address:
-  city: pune
-  state: maharastra
-  zip: 445307
-phone_number:
-  - 123-145-1564
+  address:
+    city: pune
+    state: maharastra
+    zip: 445307
+      - phone_number:
+       - 123-145-1564
 ...
