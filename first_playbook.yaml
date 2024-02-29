@@ -1,6 +1,6 @@
 ---
 - name: yash
-age: 25
+  age: 25
 address:
   city: pune
   state: maharastra
