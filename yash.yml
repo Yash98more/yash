@@ -2,7 +2,10 @@
 - name: playbook-1
   hosts: all
   tasks:
-    - name: writing my first name
+    - name: writing my first file
       debug: 
         msg: "(my full name is yash more)"
+    - name: writing my second file
+      debug: 
+        msg: "(hi yash)"
 ...
