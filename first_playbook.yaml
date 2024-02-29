@@ -1,8 +1,10 @@
 ---
-- name: playbook-1
-  hosts: all
-  tasks:
-    - name: writing my first script 
-      debug:
-        msg: "(my first playbook is operational now)"
+name: yash
+age: 25
+address:
+  city: pune
+  state: maharastra
+  zip: 445307
+phone_number:
+  - 123-145-1564
 ...
