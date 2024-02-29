@@ -1,5 +1,5 @@
 ---
-name: yash
+- name: yash
 age: 25
 address:
   city: pune
