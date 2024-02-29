@@ -1,6 +1,6 @@
 ---
 - name: playbook-1
-  hostes: all
+  hosts: all
   tasks:
     - name: writing my first name
       debug: 
