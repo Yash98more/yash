@@ -1,5 +1,5 @@
 ---
-- name: update-1
+- name: playbook-1
   hostes: all
   tasks:
     - name: writing my first name
