@@ -1,5 +1,5 @@
 ---
-- nmae: this is my global playbook
+- name: this is my global playbook
   hosts: all
   vars:
     URL: "hello yash"
