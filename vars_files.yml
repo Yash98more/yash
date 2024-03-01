@@ -1,7 +1,7 @@
 ---
 - name: this playbook for var variable
   hosts: all
-  vars_files: yash.yml
+  vars_files: demo.yml
     tasks: 
       - name: first task example for the var veriable
         debug: 
