@@ -1,0 +1,14 @@
+---
+- name: this is the mixture of playbook
+  hosts: all
+  vars: 
+    url: "hello world"
+  tasks: 
+    - name: this is global variable 
+      debug:
+        msg: "{{url}}"
+    - name: this is local variable
+      debug:
+        msg: "{{url}}"
+         string: "hi yash"
+...
