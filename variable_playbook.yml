@@ -6,5 +6,5 @@
   tasks: 
     - name: writing my first global playbook
       debug:
-        msg: "{{url}}"
+        msg: "{{URL}}"
 ...
