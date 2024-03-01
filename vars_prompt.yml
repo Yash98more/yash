@@ -1,0 +1,11 @@
+---
+- name: this is my var prompt file 
+  hosts: all
+  vars_prompt: 
+      - name: this is prompt variable
+        prompt: "yash"
+  tasks: 
+    - name: "working on prompt variable file script"
+      debug:
+        msg: "prompt file work"
+...
