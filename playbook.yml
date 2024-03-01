@@ -7,7 +7,7 @@
     - name: first global file
       debug: 
         msg: "{{url}}"
-     - name: second global file
+    - name: second global file
       debug: 
         msg: "{{url}}"
 ...
