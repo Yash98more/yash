@@ -1,0 +1,10 @@
+---
+- nmae: this is my global playbook
+  hosts: all
+  vars:
+    URL: "hello yash"
+  tasks: 
+    - name: writing my first global playbook
+      debug:
+        msg: "{{url}}"
+...

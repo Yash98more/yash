@@ -2,11 +2,11 @@
 - name: playbook-1
   hosts: all
   vars:
-    URL: "{{hi yash}}"
+    URL: "hi yash"
   tasks:
     - name: writing my first file
       debug: 
-        msg: "(URL)"
+        msg: "{{URL}}"
     - name: writing my second file
       debug: 
         msg: "(hi)"
