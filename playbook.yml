@@ -1,0 +1,13 @@
+---
+- name: this is mixture of global and local
+  hosts: all
+  vars:
+    url: "this message is first veriable global"
+  tasks: 
+    - name: first global file
+      debug: 
+        msg: "{{url}}"
+     - name: second global file
+      debug: 
+        msg: "{{url}}"
+...
