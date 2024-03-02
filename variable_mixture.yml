@@ -9,6 +9,6 @@
         msg: "{{url}}"
     - name: this is local variable
       debug:
-        msg: "{{url}}"
+        msg: "{{string}}"
          string: "hi yash"
 ...
