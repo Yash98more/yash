@@ -1,10 +1,10 @@
 ---
-- nmae: download package without package command
+- name: download package without package command
   hosts: all
   become: yes
   tasks: 
     - name: install without command
-        apt:
-          name: nginx
-          state: latest
+       apt:
+        name: nginx
+        state: latest
 ...
