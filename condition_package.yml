@@ -4,6 +4,6 @@
   become: yes
   tasks:
     - name: install nginx in debian
-      commands: sudo apt install nginx -y
+      command: sudo apt install nginx -y
       when: ansible_os_family == "debian"
 ...
