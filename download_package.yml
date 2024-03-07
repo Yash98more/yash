@@ -1,7 +1,7 @@
 ---
 - name: example playbook for example
   hosts: all
-  become: no
+  become: yes
   vars: 
     package: tree
   tasks:
