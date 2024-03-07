@@ -5,5 +5,5 @@
   tasks:
     - name: print simple message
       debug:
-        msg: "{{ansible_os_family}}"
+        msg: "ansible_os_family"
 ...
