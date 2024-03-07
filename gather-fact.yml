@@ -1,7 +1,7 @@
 ---
 - name: connecting playbook to example of gather fact
   hosts: all
-  gather-fact: yes
+  gather-facts: yes
   tasks:
     - name: print simple message
       debug:
