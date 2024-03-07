@@ -1,0 +1,9 @@
+---
+- name: connecting playbook to example of gather fact
+  hosts: all
+  gather-fact: yes
+  tasks:
+    - name: print simple message
+      debug:
+        msg: "{{ansible_os_family}}"
+...
