@@ -10,5 +10,11 @@
     - name: this is local variable
       debug:
         msg: "{{string}}"
-         string: "hi yash"
+        string: "hi yash"
 ...
+
+
+
+
+
+
