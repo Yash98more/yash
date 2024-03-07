@@ -5,5 +5,5 @@
   tasks:
     - name: install nginx in debian
       command: apt install nginx -y
-      when: ansible_os_family =="debian"
+      when: ansible_os_family == "debian"
 ...
