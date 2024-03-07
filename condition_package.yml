@@ -5,6 +5,6 @@
   tasks:
     - name: install nginx in debian
       update_cache: yes
-      command: apt install nginx -y
+      command: sudo apt install nginx -y
       when: ansible_os_family == "debian"
 ...
