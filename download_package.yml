@@ -1,10 +1,10 @@
 ---
 - name: example playbook for example
   hosts: all
-  become: yes
+  become: no
   vars: 
-    package: apache2
+    package: tree
   tasks:
     - name: installing package
-      action: apt name="{{package}}" state=absent
+      action: apt name="{{package}}" state=latest
 ... 
