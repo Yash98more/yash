@@ -1,0 +1,8 @@
+---
+- name: playbook example of copy module
+  hosts: all
+  tasks:
+    - name: copy the file
+      src: /home/ubuntu/ansible.sh
+      dest: /mnt/
+...
