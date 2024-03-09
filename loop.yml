@@ -7,7 +7,7 @@
       user: 
         name: "{{item}}" 
         state: present 
-        with_items:
+      with_items:
                  - yash
                  - sam
                  - ram
