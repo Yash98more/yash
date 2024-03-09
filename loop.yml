@@ -6,7 +6,7 @@
     - name: create multiplke user
       user: name="{{item}}" stste=present 
       with_items:
-                 -yash
-                 -sam
-                 -ram
+                 - yash
+                 - sam
+                 - ram
 ...
