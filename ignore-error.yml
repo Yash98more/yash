@@ -4,7 +4,7 @@
   tasks:
     - name: 
       shell: ps-clf |grep sleep |grep -v
-      ignor_error: yes
+      ignore_errors: yes
     - name: print the task
       debug: 
         msg: "hello world"
