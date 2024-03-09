@@ -5,5 +5,5 @@
     - name: copy the file
       copy:
         src: /home/ubuntu/ansible.sh
-        dest: /mnt/
+        dest: /home/ubuntu/
 ...
