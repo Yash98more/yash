@@ -5,5 +5,5 @@
   tasks:
     - name: Display gathered facts
       debug:
-        var: ansible_facts
+        msg: "(ansible_facts)"
 ...
