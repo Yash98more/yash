@@ -3,6 +3,7 @@
   hosts: all
   tasks:
     - name: copy the file
-      src: /home/ubuntu/ansible.sh
-      dest: /mnt/
+      copy:
+        src: /home/ubuntu/ansible.sh
+        dest: /mnt/
 ...
