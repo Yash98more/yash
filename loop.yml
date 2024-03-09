@@ -1,0 +1,12 @@
+---
+- name: write playbook for loop example
+  hosts: all
+  become: yes
+  tasks: 
+    - name: create multiplke user
+      user: name="{{item}}" stste=present 
+      with_items:
+                 -yash
+                 -sam
+                 -ram
+...
