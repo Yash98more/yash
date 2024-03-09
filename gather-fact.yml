@@ -1,6 +1,6 @@
 ---
 - name: connecting playbook to example of gather fact
-  hosts: your_target_hosts
+  hosts: all
   gather_facts: yes  
   tasks:
     - name: Display gathered facts
