@@ -6,7 +6,7 @@
     - name: create multiplke user
       user: 
         name: "{{item}}" 
-        stste: present 
+        state: present 
         with_items:
                  - yash
                  - sam
