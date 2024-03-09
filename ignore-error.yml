@@ -1,0 +1,11 @@
+---
+- name: playbook example of ignore-error
+  hosts: all
+  tasks:
+    - name: 
+      shell: ps-clf |grep sleep |grep -v
+      ignor_error: yes
+    - name: print the task
+      debug: 
+        msg: "hello world"
+...
