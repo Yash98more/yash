@@ -5,7 +5,7 @@
 - name: coping index.html
   copy:
     srv: index.html
-    dest: /var/www/html/index.html
+    dest: /var/www/html/
   notify:
     - startingnginx
 - name: print msg
