@@ -4,7 +4,7 @@
     state: latest
 - name: coping index.html
   copy:
-    srv: index.html
+    src: index.html
     dest: /var/www/html/
   notify:
     - startingnginx
